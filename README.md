@@ -1,4 +1,6 @@
+[Coursera OX90B7LLU6XM.pdf](https://github.com/user-attachments/files/18872020/Coursera.OX90B7LLU6XM.pdf)
 # Network-Scanning
+
 
 
 ## Objective
@@ -65,3 +67,17 @@ Potential Vulnerabilities
 - 
 ### Task #4
 Perform an Nmap Scan Using Options
+![image](https://github.com/user-attachments/assets/ced82610-8f5f-4e03-871f-de795500da3c)
+![image](https://github.com/user-attachments/assets/1d563062-c6e6-41e1-a7b4-1394b1f27f45)
+the system to attacks such as brute force or the exploitation of open SSH
+nmap -A -T4 scanme.nmap.org
+### Key Takeaways
+- Options can help you get more accurate results, faster scans, and customized output
+- Options enable you to further assess the network
+***
+A basic Nmap cheat sheet
+[nmap cheat sheet v1_guided project.pdf](https://github.com/user-attachments/files/18871874/nmap.cheat.sheet.v1_guided.project.pdf)
+
+For more information on Nmap visit 
+nmap.org
+  
