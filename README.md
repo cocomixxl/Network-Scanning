@@ -74,6 +74,31 @@ nmap -A -T4 scanme.nmap.org
 ### Key Takeaways
 - Options can help you get more accurate results, faster scans, and customized output
 - Options enable you to further assess the network
+### Task #5
+Output Nmap Scan Results to a File
+nmap p 80A-ON scan.txt scanme.nmap.org/30
+![image](https://github.com/user-attachments/assets/c8c15ef9-b8dc-4c75-97eb-490dedf9b099)
+Port 80 open
+Scan.txt
+![image](https://github.com/user-attachments/assets/f083a360-f2c5-4278-a675-874fe7767edd)
+cat scan.txt to check the file
+![image](https://github.com/user-attachments/assets/12e33bbe-3251-4042-8728-c5b5bf587e12)
+### Key Takeaways
+- The man page fornmap has various sections with options that you often for scanning will reference
+- Make sure you are authorized to perform scans on targets
+- Adding certain options can make your scan more aggressive and will typically take longer to complete.
+### Cumulative Challenge
+1) Perform a nmap scan, scanning ports 22-80, on target: scanme.nmap.org
+2) Use the appropriate option to enable OS and version detection, script scanning, and traceroute
+3) Set your scan to -T3 for the timing execution of the scan
+nmap -p22-80 -A -T3 scanme.nmap.org -oN output.txt
+![image](https://github.com/user-attachments/assets/b0ea9bc5-ef71-4ee1-bf5a-bf0aa4c29881)
+4) Output the scan results to a txt file named: output.txt
+5) Verify the contents of the output.txt file
+cat output.txt
+![image](https://github.com/user-attachments/assets/d6020061-7f8e-4136-9fa8-5597d49c957b)
+6) Be sure to reference your nmap man page for help
+no need to
 ***
 A basic Nmap cheat sheet
 [nmap cheat sheet v1_guided project.pdf](https://github.com/user-attachments/files/18871874/nmap.cheat.sheet.v1_guided.project.pdf)
